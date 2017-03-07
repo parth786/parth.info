@@ -1,0 +1,89 @@
+body{
+    background: url(images/background.jpg) center center fixed;
+    background-size: cover;
+    color: white;
+    
+}
+
+/*title*/
+
+#header{
+    text-align: center;
+    font-size: 5vw;
+    border-bottom: 5px dotted white;
+    margin-bottom: 10px;
+    
+}
+
+/*lap*/
+
+#lap{
+    text-align: right;
+    font-size: 5vw;
+    
+}
+
+/*time*/
+
+#time{
+    text-align: center;
+    font-size: 11vw;
+    
+}
+
+/*buttons*/
+
+#controlsContainer{
+    margin-bottom: 35px;
+    
+}
+
+.control{
+    color: white;
+    background-color: #d7a04e;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 100%;
+    text-align: center;
+    padding: 25% 0;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+
+.control:active{
+    background-color: white;
+    color: #d7a04e;
+}
+
+/*laps box*/
+
+#laps{
+    max-height: 250px;
+    overflow-y: scroll;
+    
+}
+
+.lap{
+    height: 50px;
+    border-bottom: 1px solid white;
+    margin: 15px;
+}
+
+.laptimetitle{
+    font-size: 1.5em;
+    float: left;
+}
+
+.laptime{
+    font-size: 2em;
+    float: right;
+}
+
+.footer{
+    background-color: rgba(29,167,179,0.01);
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+    margin-top: 30px;
+    font-size: 20px;
+}
