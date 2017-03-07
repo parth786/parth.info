@@ -1,0 +1,135 @@
+/*center all elements and add background images*/
+
+body{
+    background: url(images/background.jpg) center center fixed;
+    text-align: center;
+    background-size: cover;
+    
+}
+
+/*title*/
+
+#header{
+    background: linear-gradient(white, rgba(67,168,228,0.9));
+    -webkit-background: linear-gradient(white, rgba(67,168,228,0.9)));
+    -o-background: linear-gradient(white, rgba(67,168,228,0.9)));
+    -moz-background: linear-gradient(white, rgba(67,168,228,0.9)));
+    -ms-background: linear-gradient(white, rgba(67,168,228,0.9)));
+    height: 80px;
+    width: 500px;
+    color: white;
+    margin: 10px auto;
+    font-size: 3em;
+    line-height: 80px;
+}
+
+/*input container*/
+
+.inputContainer{
+    width: 200px;
+    margin: 0 auto;
+    
+
+}
+
+/*color input, line thickness, slider*/
+
+.input{
+    height: 30px;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+#circle{
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background: black;
+    margin: 0px auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+}
+
+#thicknessInput{
+    position: relative;
+}
+
+/*canvas container*/
+
+#container{
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgba(122,174,229,0.5);
+    margin: 10px auto;
+    
+}
+
+#paint{
+    background-color: white;
+    cursor: crosshair;
+    
+}
+
+/*inputs container*/
+
+.inputContainer2{
+    width: 399px;
+    margin: 0 auto;
+
+}
+
+.input2{
+    width: 133px;
+    color: #5bb4e7;
+    font-size: 1.3em;
+    float: left;
+}
+
+.button{
+    background: white;
+    height: 50px;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0,0,0,0.6);
+    -wibkit-box-shadow: 0px 4px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 4px rgba(0,0,0,0.6);
+    -ms-box-shadow: 0px 4px rgba(0,0,0,0.6);
+    -o-box-shadow: 0px 4px rgba(0,0,0,0.6);
+    position: relative;
+}
+
+.button:hover{
+    background: linear-gradient(white, rgba(67,168,228,0.9));
+    -webkit-background: linear-gradient(white, rgba(67,168,228,0.9)));
+    -o-background: linear-gradient(white, rgba(67,168,228,0.9)));
+    -moz-background: linear-gradient(white, rgba(67,168,228,0.9)));
+    -ms-background: linear-gradient(white, rgba(67,168,228,0.9)));
+    color: white;
+}
+
+.button:active{
+    top: 4px;
+}
+
+.eraseMode{
+    background-color: red;
+    color: white;
+}
+
+.footer{
+    background-color: rgba(29,167,179,0.01);
+    text-align: center;
+    color: black;
+    padding: 10px 0px;
+    margin-top: 50px;
+    font-size: 20px;
+    letter-spacing: 1.2px;
+}
