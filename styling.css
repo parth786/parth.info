@@ -1,0 +1,1186 @@
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------- Body / HTML ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+body, html {
+    height: 100%;
+    position: relative;
+    
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------- Navigation Bar ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.navbar{
+    border: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#full_navbar{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.9;
+    margin: 2px 0px;
+   
+}
+
+#navbar-brand{
+    background-image: url(images/brand/brand_name.png);
+    background-size: cover;
+    width: 45px;
+    height: 45px;
+    margin: 5px 5px;
+}
+
+.navbar_titles{
+    margin: 5px 1px;
+    font-family: 'Acme', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2.5px;
+}
+
+#download_resume{
+    color: #f9b259;
+}
+
+#download_resume:hover{
+    color: #87f778; 
+}
+
+#left_titles li{
+    width: 140px;
+    margin: 5px 5px;
+    text-align: center;
+}
+
+
+.nav .active a {
+    background-color: transparent!important;
+}
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------- Paralax Area ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.parallax{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+
+#parallaxImage1{
+    background-image: url(images/parallax_images/1.jpg);
+    height: 100%;
+    margin-top: 0px;
+    
+}
+
+
+#parallaxImage2{
+    background-image: url(images/parallax_images/2.jpg);
+    height: 70%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#parallaxImage3{
+    background-image: url(images/parallax_images/3.jpg);
+    height: 70%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------- Cover page ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+#cover_jumbotron{
+    background-color: transparent;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    width: auto;
+    height: auto;
+    opacity: 0.9;
+    padding: 10px;
+    width: 95%;
+}
+
+#cover_jumbotron #my_name{
+    padding: 10px;
+    margin-bottom: 0px;
+    letter-spacing: 2.5px;
+    word-spacing: 5px;
+    font-size: 7vw;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+#cover_jumbotron #my_thaught{
+    padding: 0px 5px;
+    margin-top: -5px;
+    word-spacing: 4.5px;
+    font-size: 2vw;
+    font-family: 'Audiowide', cursive;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------- About page ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#about_section{
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    opacity: 0.9;
+    box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -webkit-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -moz-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -ms-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -o-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+}
+#about_content{
+    width: auto;
+    height: auto;
+    max-width: 70%;
+    max-height: 100%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.about_description{
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    word-spacing: 5px;
+    line-height: 2;
+    font-family: 'Copse', serif;
+}
+
+#about_intro_1{
+    
+}
+
+#about_intro_2{
+    margin-top: 30px;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------- Project page ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+#projects_section{
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -webkit-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -ms-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -moz-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    -o-box-shadow: 0px 10px 20px black, 0px -10px 20px black;
+    opacity: 0.9;
+}
+
+#projects_content{
+    max-width: 95%;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+#project_heading{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    font-size: 4vw;
+    border-bottom: 3px solid white;
+    color: beige;
+    opacity: 0.5;
+    letter-spacing: 5px;
+    font-family: 'Coiny', cursive;
+}
+
+
+.project_card{
+    box-shadow: 0 4px 1px 0px white;
+    -webkit-box-shadow: 0 4px 1px 0px white;
+    -moz-box-shadow: 0 4px 1px 0px white;
+    -o-box-shadow: 0 4px 1px 0px white;
+    -ms-box-shadow: 0 4px 1px 0px white;
+    border-radius: 5px;
+    margin:30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+    
+}
+
+.content_overlay{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: 0.6s ease;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+
+.project_card:hover .content_overlay{
+  opacity: 0.2;
+}
+
+.content_middle{
+    transition: 0.6s ease;
+    -webkit-transition: 0.6s ease;
+    -moz-transition: 0.6s ease;
+    -ms-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.project_card:hover .content_middle{
+    opacity: 1;
+}
+
+.content_button .btn{
+    width: 250px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project_img img{
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 200px;
+    filter: grayscale(0.5);
+    -webkit-filter: grayscale(0.5);
+    -ms-filter: grayscale(0.5);
+    -moz-filter: grayscale(0.5);
+    -o-filter: grayscale(0.5);
+}
+
+.project_container{
+    max-width: 95%;
+    padding: 5px auto;
+    height: auto;
+    min-height: 410px;
+    margin: 10px;
+    text-align: center;
+}
+
+.project_heading{
+    text-align: center;
+    max-width: 99%;
+    padding: 5px;
+    color: bisque;
+    font-size: 25px;
+    letter-spacing: 1.2px;
+    word-spacing: 3px;
+    min-height: 65px;
+    font-family: 'Quando', serif;
+}
+
+.project_description{
+    max-width: 99%;
+    padding: 10px;
+    margin: 0;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    word-spacing: 3px;
+    min-height: 180px;
+    text-align: justify;
+    font-family: 'Kurale', serif;
+}
+
+.project_technologies_title{
+    max-width: 99%;
+    padding: 5px 10px;
+    color: bisque;
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    word-spacing: 3px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Baloo Paaji', cursive;
+    
+}
+
+
+.project_technologies{
+    max-width: 99%;
+    padding: 0 10px;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1.2px;
+    word-spacing: 3px;
+    text-align: center;
+    font-family: 'Capriola', sans-serif;
+}
+
+
+.hide_project_technologies{
+    display: none;
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------- Connect page ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#connect_section{
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+    box-shadow: 0px 10px 20px black, 0px -1px 20px black;
+    -webkit-box-shadow: 0px 10px 20px black, 0px -1px 20px black;
+    -moz-box-shadow: 0px 10px 20px black, 0px -1px 20px black;
+    -ms-box-shadow: 0px 10px 20px black, 0px -1px 20px black;
+    -o-box-shadow: 0px 10px 20px black, 0px -1px 20px black;
+    opacity: 0.9;
+}
+
+#connect_content{
+    background-color: transparent;
+    color: rgba(256,256,256,0.5);
+    height: auto;
+    width: auto;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+    margin: 0px;
+}
+
+.connect_description p{
+   font-family: 'Numans', sans-serif;
+}
+.connect_description h1{
+   font-size: 60px;
+    padding: 0px;
+}
+.connect_description h2{
+   font-family: 'Cantora One', sans-serif;
+}
+
+#connect_getintouch{
+    padding: 0px 5px;
+    font-family: 'Codystar', cursive;
+    font-weight: bold;
+}
+
+#connect_network{
+    padding: 0px 5px;
+    font-family: 'Autour One', cursive;
+    text-align: center;
+}
+
+
+
+.connect_link{
+    color: #3E92A6;
+    font-family: 'Oxygen Mono', monospace;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------- Footer ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.footer{
+    background-color: transparent;
+    color: rgba(256,256,256,0.5);
+    height: auto;
+    width: auto;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 5px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+#footer{
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+
+
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------- Media Query ----------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media (min-width:480px) and (max-width:768px){
+    
+    .navbar{
+        background: black;
+    }
+    
+    .navbar_titles{
+        margin: 0;
+        text-align: center;
+        font-size: 23px;
+    }
+    
+    #download_resume{
+        margin: 0px;
+    }
+    
+    #left_titles li{
+        width: 100%;
+        margin: 0px;
+    }
+    
+    #navbar-brand{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #cover_jumbotron{
+        margin-top: 20%;    
+    }
+    
+    #cover_jumbotron #my_name{
+        font-size: 10vw;
+    }
+
+    #cover_jumbotron #my_thaught{
+        font-size: 3vw;
+    }
+    
+    #about_content{
+        width: auto;
+        height: auto;
+        max-width: 97%;
+        max-height: 100%;
+    }  
+
+    .about_description{
+        text-align: justify;
+        color: white;
+        font-size: 14px;
+    }
+
+    #about_intro_1{
+    
+    }
+
+    #about_intro_2{
+        margin-top: 20px;
+    }
+    
+    
+    #projects_section{
+        padding: 5px;
+    }
+
+    #projects_content{
+        max-width: 95%;
+    }
+
+    #project_heading{
+        padding: 10px;
+        margin: 10px;
+        font-size: 6vw;
+    }
+    
+    
+    .project_card{
+        height: auto;
+        max-height: 460px;
+        width: auto;
+    }
+
+
+    .project_img img{
+        height: auto;
+        max-height: 200px;
+    }
+
+    .project_container{
+        min-height: auto;
+        padding: 0px;
+        height: auto;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project_heading{
+        max-width: 99%;
+        height: auto;
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .project_description{
+        max-width: 99%;
+        padding: 0px 10px;
+        height: auto;
+        font-size: 15px;
+        margin:0px;
+        min-height: auto;
+    }
+    
+    
+    .content_button .btn{
+        width: 200px;
+        font-size: 20px;
+        display: block;
+    }
+    
+
+    .project_technologies_title{
+        padding: 10px 10px;
+        font-size: 25px;
+    }
+
+
+    .project_technologies{
+        padding: 10px;
+        font-size: 20px;
+        word-spacing: 3px;
+        margin-bottom: 50px;
+    }
+    
+    
+    .show_project_technologies{
+        display: none;
+    }
+    
+    .hide_project_technologies{
+        display: inline;
+    }
+    
+    #connect_section{
+        padding: 5px;
+        margin: 0;
+    }
+
+    #connect_content{
+        text-align: center;
+        margin: 5px auto;
+    }
+
+    .connect_description p{
+        font-size: 3vw;
+    }
+    
+    .connect_description h1{
+        font-size: 8vw;
+    }
+    
+    .connect_description h2{
+        font-size: 4vw;
+    }
+
+    #connect_getintouch{
+        padding: 0px 5px;
+    }
+
+    #connect_network{
+        padding: 0px 5px;
+    }
+
+        
+}
+
+
+
+
+@media (max-width:480px){
+    
+    .navbar{
+        background: black;
+    }
+    
+    
+    .navbar_titles{
+        margin: 0;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    #download_resume{
+        margin: 0px;
+    }
+    
+    #left_titles li{
+        width: 100%;
+        margin: 0px;   
+    }
+    
+    #navbar-brand{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #cover_jumbotron{
+        margin-top: 25%;    
+    }
+    
+    #cover_jumbotron #my_name{
+        font-size: 12vw;
+        opacity: 1;
+        color: beige;
+        margin-bottom: 20px;
+    }
+
+    #cover_jumbotron #my_thaught{
+        font-size: 4vw;
+        opacity: 1;
+        color: beige;
+    }
+    
+    #about_content{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }  
+
+    .about_description{
+        text-align: justify;
+        color: white;
+        font-size: 12px;
+    }
+
+    #about_intro_1{
+    
+    }
+
+    #about_intro_2{
+        margin-top: 10px;
+    }
+    
+    #projects_section{
+        padding: 5px;
+    }
+
+    #projects_content{
+        max-width: 95%;
+    }
+
+    #project_heading{
+        padding: 10px;
+        margin: 10px;
+        font-size: 8vw;
+    }
+
+
+    .project_card{
+        height: auto;
+        width: auto;
+    }
+
+
+    .project_img img{
+        height: auto;
+        max-height: 150px;
+    }
+
+    .project_container{
+        min-height: auto;
+        padding: 0px;
+        height: auto;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project_heading{
+        max-width: 99%;
+        height: auto;
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .project_description{
+        max-width: 99%;
+        padding: 5px 5px;
+        height: auto;
+        font-size: 4vw;
+        margin:0px;
+    }
+    
+    
+    .content_button .btn{
+        width: 180px;
+        font-size: 15px;
+        display: block;
+        text-align: center;
+    }
+    
+    
+    
+     .project_technologies_title{
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+
+
+    .project_technologies{
+        padding: 10px;
+        font-size: 15px;
+        word-spacing: 3px;
+        margin-bottom: 30px;
+    }
+    
+    
+    .show_project_technologies{
+        display: none;
+    }
+    
+    .hide_project_technologies{
+        display: inline;
+    }
+    
+    
+    #connect_content{
+        text-align: center;
+        margin: 5px auto;
+    }
+
+    .connect_description p{
+        font-size: 3vw;
+    }
+    
+    .connect_description h1{
+        font-size: 7vw;
+    }
+    
+    .connect_description h2{
+        font-size: 5vw;
+    }
+
+    #connect_getintouch{
+        padding: 0px 5px;
+    }
+
+    #connect_network{
+         padding: 0px 5px;
+    }
+
+    
+}
+
+
+
+
+@media (min-device-width:480px) and (max-device-width:768px){
+     .navbar{
+        background: black;
+    }
+    
+    .navbar_titles{
+        margin: 0;
+        text-align: center;
+        font-size: 23px;
+    }
+    
+    #download_resume{
+        margin: 0px;
+    }
+    
+    #left_titles li{
+        width: 100%;
+        margin: 0px;
+    }
+    
+    #navbar-brand{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #cover_jumbotron{
+        margin-top: 20%;    
+    }
+    
+    #cover_jumbotron #my_name{
+        font-size: 10vw;
+    }
+
+    #cover_jumbotron #my_thaught{
+        font-size: 3vw;
+    }
+    
+    #about_content{
+        width: auto;
+        height: auto;
+        max-width: 97%;
+        max-height: 100%;
+    }  
+
+    .about_description{
+        text-align: justify;
+        color: white;
+        font-size: 14px;
+    }
+
+    #about_intro_1{
+    
+    }
+
+    #about_intro_2{
+        margin-top: 20px;
+    }
+    
+    
+    #projects_section{
+        padding: 5px;
+    }
+
+    #projects_content{
+        max-width: 95%;
+    }
+
+    #project_heading{
+        padding: 10px;
+        margin: 10px;
+        font-size: 6vw;
+    }
+    
+    
+    .project_card{
+        height: auto;
+        max-height: 460px;
+        width: auto;
+    }
+
+
+    .project_img img{
+        height: auto;
+        max-height: 200px;
+    }
+
+    .project_container{
+        min-height: auto;
+        padding: 0px;
+        height: auto;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project_heading{
+        max-width: 99%;
+        height: auto;
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .project_description{
+        max-width: 99%;
+        padding: 0px 10px;
+        height: auto;
+        font-size: 15px;
+        margin:0px;
+    }
+    
+    
+    .content_button .btn{
+        width: 200px;
+        font-size: 20px;
+        display: block;
+    }
+    
+
+    .project_technologies_title{
+        padding: 10px 10px;
+        font-size: 25px;
+    }
+
+
+    .project_technologies{
+        padding: 10px;
+        font-size: 20px;
+        word-spacing: 3px;
+        margin-bottom: 50px;
+    }
+    
+    
+    .show_project_technologies{
+        display: none;
+    }
+    
+    .hide_project_technologies{
+        display: inline;
+    }
+    
+    #connect_section{
+        padding: 5px;
+        margin: 0;
+    }
+
+    #connect_content{
+        text-align: center;
+        margin: 5px auto;
+    }
+
+    .connect_description p{
+        font-size: 3vw;
+    }
+    
+    .connect_description h1{
+        font-size: 8vw;
+    }
+    
+    .connect_description h2{
+        font-size: 4vw;
+    }
+
+    #connect_getintouch{
+        padding: 0px 5px;
+    }
+
+    #connect_network{
+        padding: 0px 5px;
+    }
+
+
+}
+
+
+
+
+@media (max-device-width:480px){
+   
+    
+    
+    .navbar{
+        background: black;
+    }
+    
+    
+    .navbar_titles{
+        margin: 0;
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    #download_resume{
+        margin: 0px;
+    }
+    
+    #left_titles li{
+        width: 100%;
+        margin: 0px;   
+    }
+    
+    #navbar-brand{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    #cover_jumbotron{
+        margin-top: 25%;    
+    }
+    
+    #cover_jumbotron #my_name{
+        font-size: 12vw;
+        opacity: 1;
+        color: beige;
+        margin-bottom: 20px;
+    }
+
+    #cover_jumbotron #my_thaught{
+        font-size: 4vw;
+        opacity: 1;
+        color: beige;
+    }
+    
+    #about_content{
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }  
+
+    .about_description{
+        text-align: justify;
+        color: white;
+        font-size: 12px;
+    }
+
+    #about_intro_1{
+    
+    }
+
+    #about_intro_2{
+        margin-top: 10px;
+    }
+    
+    #projects_section{
+        padding: 5px;
+    }
+
+    #projects_content{
+        max-width: 95%;
+    }
+
+    #project_heading{
+        padding: 10px;
+        margin: 10px;
+        font-size: 8vw;
+    }
+
+
+    .project_card{
+        height: auto;
+        width: auto;
+    }
+
+
+    .project_img img{
+        height: auto;
+        max-height: 150px;
+    }
+
+    .project_container{
+        min-height: auto;
+        padding: 0px;
+        height: auto;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project_heading{
+        max-width: 99%;
+        height: auto;
+        font-size: 6vw;
+        text-align: center;
+    }
+
+    .project_description{
+        max-width: 99%;
+        padding: 5px 5px;
+        height: auto;
+        font-size: 4vw;
+        margin:0px;
+    }
+    
+    
+    .content_button .btn{
+        width: 180px;
+        font-size: 15px;
+        display: block;
+        text-align: center;
+    }
+    
+    
+    
+     .project_technologies_title{
+        padding: 10px 10px;
+        font-size: 20px;
+    }
+
+
+    .project_technologies{
+        padding: 10px;
+        font-size: 15px;
+        word-spacing: 3px;
+        margin-bottom: 30px;
+    }
+    
+    
+    .show_project_technologies{
+        display: none;
+    }
+    
+    .hide_project_technologies{
+        display: inline;
+    }
+    
+    
+    #connect_content{
+        text-align: center;
+        margin: 5px auto;
+    }
+
+    .connect_description p{
+        font-size: 3vw;
+    }
+    
+    .connect_description h1{
+        font-size: 7vw;
+    }
+    
+    .connect_description h2{
+        font-size: 5vw;
+    }
+
+    #connect_getintouch{
+        padding: 0px 5px;
+    }
+
+    #connect_network{
+         padding: 0px 5px;
+    }
+
+    
+}
+
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------*/
