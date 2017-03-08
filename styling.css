@@ -821,9 +821,7 @@ body, html {
     
       
     #left_titles li{
-        width: 135px;
-        margin: 5px 5px;
-        text-align: center;
+        width: 110px;
     }
 
     .parallax {
