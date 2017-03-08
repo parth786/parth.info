@@ -54,7 +54,7 @@ body, html {
 }
 
 #left_titles li{
-    width: 140px;
+    width: 135px;
     margin: 5px 5px;
     text-align: center;
 }
@@ -816,7 +816,22 @@ body, html {
     
 }
 
+@media only screen and (max-device-width: 1024px) {
+    
+    
+      
+    #left_titles li{
+        width: 135px;
+        margin: 5px 5px;
+        text-align: center;
+    }
 
+    .parallax {
+        background-attachment: scroll;
+    }
+    
+    
+}
 
 
 @media (min-device-width:480px) and (max-device-width:768px){
@@ -837,7 +852,6 @@ body, html {
     
     #left_titles li{
         width: 100%;
-        max-width: 200px;
         margin: 0px;
     }
     
@@ -1178,11 +1192,7 @@ body, html {
 }
 
 
-@media only screen and (max-device-width: 1024px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
+
 
 
 /*---------------------------------------------------------------------------------------------------------------------*/
