@@ -659,7 +659,7 @@ body, html {
     
     #left_titles li{
         width: 100%;
-        margin: 0px;   
+        margin: 0px;
     }
     
     #navbar-brand{
@@ -833,13 +833,11 @@ body, html {
     
     #download_resume{
         margin: 0px;
-        text-align: center;
     }
     
     #left_titles li{
-        width: 130px;
+        width: 1100%;
         margin: 0px;
-        text-align: center;
     }
     
     #navbar-brand{
@@ -1017,13 +1015,11 @@ body, html {
     
     #download_resume{
         margin: 0px;
-        text-align: center;
     }
     
     #left_titles li{
         width: 100%;
         margin: 0px;
-        text-align: center;
     }
     
     #navbar-brand{
