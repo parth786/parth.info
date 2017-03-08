@@ -836,7 +836,7 @@ body, html {
         margin: 0;
         text-align: center;
         font-size: 15px;
-        width: auto;
+        width: 100%;
     }
     
     #download_resume{
@@ -844,7 +844,7 @@ body, html {
     }
     
     #left_titles li{
-        width: 100%;
+/*        width: 100%;*/
         margin: 0px;
     }
     
