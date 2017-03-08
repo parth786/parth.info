@@ -309,7 +309,7 @@ body, html {
     max-width: 95%;
     padding: 5px auto;
     height: auto;
-    min-height: 410px;
+    min-height: 420px;
     margin: 10px;
     text-align: center;
 }
@@ -322,7 +322,7 @@ body, html {
     font-size: 25px;
     letter-spacing: 1.2px;
     word-spacing: 3px;
-    min-height: 65px;
+    height: auto;
     font-family: 'Quando', serif;
 }
 
@@ -561,7 +561,7 @@ body, html {
     .project_heading{
         max-width: 99%;
         height: auto;
-        font-size: 6vw;
+        font-size: 22px;
         text-align: center;
     }
 
@@ -569,7 +569,7 @@ body, html {
         max-width: 99%;
         padding: 0px 10px;
         height: auto;
-        font-size: 15px;
+        font-size: 14px;
         margin:0px;
         min-height: auto;
     }
@@ -615,15 +615,15 @@ body, html {
     }
 
     .connect_description p{
-        font-size: 3vw;
+        font-size: 14px;
     }
     
     .connect_description h1{
-        font-size: 8vw;
+        font-size: 40px;
     }
     
     .connect_description h2{
-        font-size: 4vw;
+        font-size: 28px;
     }
 
     #connect_getintouch{
@@ -716,7 +716,7 @@ body, html {
     #project_heading{
         padding: 10px;
         margin: 10px;
-        font-size: 8vw;
+        font-size: 30px;
     }
 
 
@@ -743,7 +743,7 @@ body, html {
     .project_heading{
         max-width: 99%;
         height: auto;
-        font-size: 6vw;
+        font-size: 25px;
         text-align: center;
     }
 
@@ -751,7 +751,7 @@ body, html {
         max-width: 99%;
         padding: 5px 5px;
         height: auto;
-        font-size: 4vw;
+        font-size: 14px;
         margin:0px;
     }
     
@@ -794,15 +794,15 @@ body, html {
     }
 
     .connect_description p{
-        font-size: 3vw;
+        font-size: 14px;
     }
     
     .connect_description h1{
-        font-size: 7vw;
+        font-size: 24px;
     }
     
     .connect_description h2{
-        font-size: 5vw;
+        font-size: 18px;
     }
 
     #connect_getintouch{
@@ -820,6 +820,7 @@ body, html {
 
 
 @media (min-device-width:480px) and (max-device-width:768px){
+     
      .navbar{
         background: black;
     }
@@ -917,7 +918,7 @@ body, html {
     .project_heading{
         max-width: 99%;
         height: auto;
-        font-size: 6vw;
+        font-size: 22px;
         text-align: center;
     }
 
@@ -925,8 +926,9 @@ body, html {
         max-width: 99%;
         padding: 0px 10px;
         height: auto;
-        font-size: 15px;
+        font-size: 14px;
         margin:0px;
+        min-height: auto;
     }
     
     
@@ -970,15 +972,15 @@ body, html {
     }
 
     .connect_description p{
-        font-size: 3vw;
+        font-size: 14px;
     }
     
     .connect_description h1{
-        font-size: 8vw;
+        font-size: 40px;
     }
     
     .connect_description h2{
-        font-size: 4vw;
+        font-size: 28px;
     }
 
     #connect_getintouch{
@@ -999,7 +1001,7 @@ body, html {
    
     
     
-    .navbar{
+   .navbar{
         background: black;
     }
     
@@ -1073,7 +1075,7 @@ body, html {
     #project_heading{
         padding: 10px;
         margin: 10px;
-        font-size: 8vw;
+        font-size: 30px;
     }
 
 
@@ -1100,7 +1102,7 @@ body, html {
     .project_heading{
         max-width: 99%;
         height: auto;
-        font-size: 6vw;
+        font-size: 25px;
         text-align: center;
     }
 
@@ -1108,7 +1110,7 @@ body, html {
         max-width: 99%;
         padding: 5px 5px;
         height: auto;
-        font-size: 4vw;
+        font-size: 14px;
         margin:0px;
     }
     
@@ -1151,15 +1153,15 @@ body, html {
     }
 
     .connect_description p{
-        font-size: 3vw;
+        font-size: 14px;
     }
     
     .connect_description h1{
-        font-size: 7vw;
+        font-size: 24px;
     }
     
     .connect_description h2{
-        font-size: 5vw;
+        font-size: 18px;
     }
 
     #connect_getintouch{
