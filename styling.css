@@ -836,6 +836,7 @@ body, html {
         margin: 0;
         text-align: center;
         font-size: 15px;
+        max-width: 130px;
     }
     
     #download_resume{
@@ -845,7 +846,6 @@ body, html {
     #left_titles li{
         width: 100%;
         margin: 0px;
-        float: left;
     }
     
     #navbar-brand{
