@@ -821,7 +821,7 @@ body, html {
 
 @media (min-device-width:480px) and (max-device-width:768px){
      
-     .navbar{
+    .navbar{
         background: black;
     }
     
@@ -836,7 +836,7 @@ body, html {
     }
     
     #left_titles li{
-        width: 1100%;
+        width: 100%;
         margin: 0px;
     }
     
@@ -844,7 +844,6 @@ body, html {
         margin-left: auto;
         margin-right: auto;
     }
-    
     
     #cover_jumbotron{
         margin-top: 20%;    
@@ -1002,7 +1001,7 @@ body, html {
    
     
     
-   .navbar{
+  .navbar{
         background: black;
     }
     
@@ -1083,7 +1082,6 @@ body, html {
     .project_card{
         height: auto;
         width: auto;
-        min-height: 410px;
     }
 
 
@@ -1173,6 +1171,7 @@ body, html {
     #connect_network{
          padding: 0px 5px;
     }
+
 
     
 }
