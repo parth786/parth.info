@@ -836,7 +836,8 @@ body, html {
         margin: 0;
         text-align: center;
         font-size: 15px;
-        max-width: 130px;
+        width: 100%;
+        max-width: 150px;
     }
     
     #download_resume{
