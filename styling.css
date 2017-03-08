@@ -818,12 +818,6 @@ body, html {
 
 @media only screen and (max-device-width: 1024px) {
     
-    
-      
-    #left_titles li{
-        width: 110px;
-    }
-
     .parallax {
         background-attachment: scroll;
     }
@@ -850,6 +844,7 @@ body, html {
     
     #left_titles li{
         width: 100%;
+        min-width: 110px;
         margin: 0px;
     }
     
