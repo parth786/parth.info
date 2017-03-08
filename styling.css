@@ -833,11 +833,13 @@ body, html {
     
     #download_resume{
         margin: 0px;
+        text-align: center;
     }
     
     #left_titles li{
-        width: 100%;
+        width: 130px;
         margin: 0px;
+        text-align: center;
     }
     
     #navbar-brand{
@@ -845,9 +847,6 @@ body, html {
         margin-right: auto;
     }
     
-    #left_titles li{
-    width: 130px;
-    }
     
     #cover_jumbotron{
         margin-top: 20%;    
@@ -1018,11 +1017,13 @@ body, html {
     
     #download_resume{
         margin: 0px;
+        text-align: center;
     }
     
     #left_titles li{
         width: 100%;
-        margin: 0px;   
+        margin: 0px;
+        text-align: center;
     }
     
     #navbar-brand{
