@@ -820,6 +820,7 @@ body, html {
     
        #left_titles li{
         width: 100%;
+           font-size: 14px;
     }
     
     .parallax {
@@ -839,7 +840,7 @@ body, html {
     .navbar_titles{
         margin: 0;
         text-align: center;
-        font-size: 15px;
+        font-size: 14px;
     }
     
     #download_resume{
