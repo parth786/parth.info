@@ -819,7 +819,8 @@ body, html {
 @media only screen and (max-device-width: 1024px) {
     
        #left_titles li{
-        max-width: 130px;
+        max-width: 110px;
+        width: 100%;
     }
     
     .parallax {
@@ -848,7 +849,7 @@ body, html {
     
     #left_titles li{
         width: 100%;
-        min-width: 110px;
+
         margin: 0px;
     }
     
