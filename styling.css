@@ -54,8 +54,8 @@ body, html {
 }
 
 #left_titles li{
-    width: 135px;
-    margin: 5px 5px;
+    width: auto;
+    margin: 5px 2px;
     text-align: center;
 }
 
