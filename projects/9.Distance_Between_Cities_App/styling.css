@@ -1,0 +1,36 @@
+/*add font-family and background-image*/
+
+body{   
+    background: url(images/background.jpg) center center fixed;
+    background-size: cover;
+    color: #fff;
+    font-family: 'Arvo', serif;
+}
+
+
+
+.jumbotron{
+    background-color:transparent !important;
+    margin: 0px;
+    padding: 10px;
+}
+
+.jumbotron h1{
+    letter-spacing: 2.5px;
+}
+
+.jumbotron h1, .jumbotron p {
+    text-align: center;
+}
+
+#googleMap{
+    width: 100%;
+    height: 200px;
+    margin: 10px auto;
+}
+
+#output{
+    text-align: center;
+    font-size: 2em;
+    margin: 20px auto;
+}
