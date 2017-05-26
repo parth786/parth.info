@@ -1,0 +1,43 @@
+<ng-include src="'views/account-header.html'"></ng-include>
+
+<div class="jumbotron" id="profile">
+    <h1 class="title">Manage your profile</h1>
+    <form novalidate class="form-group">
+        <div>
+            <b>First Name:</b> <span ng-hide="profile.editMode">{{profile.userProfile.firstname}}</span>
+            <input type="text" ng-model="profile.userProfile.firstname" ng-show="profile.editMode" class="form-control">
+        </div>
+
+        <div>
+            <b>Last Name:</b> <span ng-hide="profile.editMode">{{profile.userProfile.lastname}}</span>
+            <input type="text" ng-model="profile.userProfile.lastname" ng-show="profile.editMode" class="form-control">
+        </div>
+
+        <div>
+            <b>Username:</b> <span ng-hide="profile.editMode">{{profile.userProfile.username}}</span>
+            <input type="text" ng-model="profile.userProfile.username" ng-show="profile.editMode" class="form-control">
+        </div>
+
+        <div>
+            <b>Email:</b> <span ng-hide="profile.editMode">{{profile.userProfile.email}}</span>
+            <input type="text" ng-model="profile.userProfile.email" ng-show="profile.editMode" class="form-control">
+        </div>
+
+        <div>
+            <b>Password:</b> <span ng-hide="profile.editMode">{{profile.userProfile.password}}</span>
+            <input type="text" ng-model="profile.userProfile.password" ng-show="profile.editMode" class="form-control">
+        </div>
+
+        <div>
+            <b>Confirm Password:</b> <span ng-hide="profile.editMode">{{profile.userProfile.confirmPassword}}</span>
+            <input type="text" ng-model="profile.userProfile.confirmPassword" ng-show="profile.editMode" class="form-control">
+        </div>
+
+        <div>
+            <br />
+            <button ng-click="profile.trigerEditMode()" ng-hide="profile.editMode" class="btn btn-danger btn-sm">Edit</button>
+            <button ng-click="profile.saveUpdatedInfo()" ng-show="profile.editMode" class="btn btn-success btn-sm">Save</button>
+        </div>
+        
+    </form>
+</div>

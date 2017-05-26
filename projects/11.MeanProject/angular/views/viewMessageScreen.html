@@ -1,0 +1,32 @@
+<ng-include src="'views/account-header.html'"></ng-include>
+
+<div class="jumbotron" id="viewMsgScreen">
+    <div ng-hide="view.flag">
+        <p><b>From:</b>&nbsp;&nbsp;&nbsp; {{view.viewRow.from}}</p>
+        <p><b>Message:</b>&nbsp;&nbsp;&nbsp; {{view.viewRow.message}}</p>
+    </div>
+
+    <div ng-show="view.flag">
+        <p><b>To:</b>&nbsp;&nbsp;&nbsp; {{view.viewRow.from}}</p>
+        <div class="form-group">
+            <p><b>Message:</b>&nbsp;&nbsp;&nbsp; {{view.viewRow.message}}</p>
+            <p><b>Response: </b></p>
+            <textarea rows="5" id="message" ng-model="view.message"  class="form-control"></textarea>
+        </div>
+    </div>
+
+    <br />
+
+    <div ng-hide="view.flag">
+        <button class="btn btn-primary btn-block btn-lg" ng-click="view.switchFlag()">Reply</button>
+        <br />
+        <button class="btn btn-warning btn-block btn-lg" ng-click="view.allMsg()">Back</button>
+    </div>
+
+    <div ng-show="view.flag">
+        <button class="btn btn-success btn-block btn-lg" ng-click="view.reply()">Send</button>
+        <br />
+        <button class="btn btn-danger btn-block btn-lg" ng-click="view.switchFlag()">Cancle</button>
+    </div>
+
+</div>

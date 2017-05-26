@@ -1,0 +1,134 @@
+
+#home{
+    text-align: center;
+    background-color: transparent;
+    background: url("images/background/home.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    max-height: 530px;
+    opacity: 0.9;
+}
+
+#contact{
+    text-align: center;
+    background-color: transparent;
+    background: url("images/background/contact.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    max-height: 530px;
+    opacity: 0.9;
+}
+
+#login{
+    text-align: center;
+    background-color: transparent;
+    background: url("images/background/login.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+    max-height: 530px;
+    opacity: 0.9;
+    color: white;
+}
+
+#signup{
+    text-align: center;
+    background-color: transparent;
+    background: url("images/background/signup.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    opacity: 0.9;
+    color: white;
+}
+
+.title{
+    padding: 15px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+
+.btn{
+    width: 200px;
+    color: white;
+}
+
+.title2{
+    margin-bottom: 10px;
+}
+
+.invalid{
+    color: red !important;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+
+input.ng-invalid.ng-touched{
+    border: 2px solid red;
+}
+
+#profile h1 {
+    margin-top: 0px !important;
+}
+
+#chat h2 {
+    margin-top: 0px !important;
+}
+
+#sendMessage, #viewMessage{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#ViewTable td{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    /*    max-width: 100px;*/
+}
+
+#ViewTable{
+    width: 100%;
+}
+
+.MsgFrom{
+    max-width: 150px;
+    width: auto;
+}
+
+.msg{
+    max-width: 500px;
+    width: auto;
+}
+
+.msgDate{
+    width: auto;
+    max-width: 100px;
+}
+
+.Msgoption{
+    width: auto;
+    max-width: 130px;
+}
+
+#ViewTable .btn{
+    width: auto !important;
+}
+
+#msgView{
+    margin-bottom: 20px;
+}
+
+#msgViewTable{
+    margin-top: 20px;
+}
