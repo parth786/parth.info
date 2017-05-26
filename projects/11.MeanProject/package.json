@@ -1,23 +1,29 @@
 {
-  "name": "meanproject",
-  "version": "1.0.0",
-  "description": "This is the MEAN project with Angular at front-end and Nodejs at back-end with mongoDB",
-  "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [
-    "MongoDB",
-    "Angular@1.x",
-    "Nodejs",
-    "Expressjs"
-  ],
-  "author": "Parth Pathak",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.15.3",
-    "mongojs": "^2.4.0"
-  }
+    "name": "meanproject",
+    "version": "1.0.0",
+    "description": "This is the MEAN project with Angular at front-end and Nodejs at back-end with mongoDB",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository" :{ "type" : "git", 
+                   "url" : "https://github.com/parth786/parth.info/tree/master/projects/11.MeanProject"
+    },
+    "engines":{
+        "node" : "v6.10.3"
+    },
+    "keywords": [
+        "MongoDB",
+        "Angular@1.x",
+        "Nodejs",
+        "Expressjs"
+    ],
+    "author": "Parth Pathak",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.17.2",
+        "express": "^4.15.3",
+        "mongojs": "^2.4.0"
+    }
 }
