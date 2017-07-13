@@ -1,0 +1,51 @@
+<ng-include src="'views/account-header.html'"></ng-include>
+
+<div class="jumbotron" id="chat">
+
+    <h2 class="title">Chat Messages</h2>
+
+    <div>
+        <button class="btn btn-primary" ng-click="chat.changeFlag()" ng-hide="chat.flag">Compose Message</button>
+        <button class="btn btn-primary" ng-click="chat.changeFlag()" ng-show="chat.flag">View Messages</button>
+    </div>
+
+    <div id="sendMessage" ng-show="chat.flag">
+        <form class="form">
+            <div class="form-group">
+                <label for="to">To: </label>
+                <input type="text" id="to" ng-model="chat.message.to" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="message">Message: </label>
+                <textarea rows="5" id="message" ng-model="chat.message.message"  class="form-control"></textarea>
+            </div>
+            <div>
+                <button class="btn btn-info" ng-click="chat.sendMsg()">Send</button>
+                <button class="btn btn-danger" ng-click="chat.changeFlag()">Discard</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="viewMessage" ng-hide="chat.flag">
+        <p>View Messages here</p>
+        <table class="table" id="ViewTable">
+            <thead>
+                <tr>
+                    <th class="MsgFrom">From</th>
+                    <th class="msg">Message</th>
+                    <th class="msgDate">Date</th>
+                    <th class="Msgoption">Options</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="msg in chat.inboxMessages">
+                    <td class="MsgFrom">{{msg.from}}</td>
+                    <td class="msg">{{msg.message}}</td>
+                    <td class="msgDate">{{msg.date}}</td>
+                    <td class="Msgoption"><button class="btn btn-info" ng-click="chat.viewMsg($index)">View</button>&nbsp;&nbsp;<button class="btn btn-danger" ng-click="chat.deleteMsg($index)">X Delete</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
