@@ -30,6 +30,11 @@
         }
 
         refresh();
+        
+        setInterval(function(){
+            refresh();
+        },5000);
+                
 
 
         // create flag to switch the views 
@@ -129,7 +134,6 @@
             $http.put("/deleteRequest/" + userID, scope.userINFO).success(function(response){
 //                console.log(response);
             });
-
         }
 
     }]);
